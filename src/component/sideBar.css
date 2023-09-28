@@ -1,0 +1,23 @@
+.skills Link{
+    color:white;
+text-decoration: none;
+
+}
+.projects Link{color:white;
+text-decoration: none;
+}
+.myInfo{color:white;
+text-decoration: none;
+}
+.sideBar{
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  
+    text-decoration: underline;
+    padding-left: 17px;
+    font-size: xx-large;
+    row-gap: 31px;
+   
+}

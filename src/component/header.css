@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    background-color:rgb(91,174,253);
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.part2{
+    display: flex;
+    column-gap: 20px;
+   align-items: center;
+   padding-right: 92px;
+    column-gap: 60px;
+   
+   
+}
+li{
+    font-size: larger;
+    list-style: none;
+}

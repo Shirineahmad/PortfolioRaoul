@@ -1,15 +1,17 @@
-import { Link } from "react-router-dom"
-import{FaSignInAlt , FaUser} from "react-icons/fa"
-import Logo from "./logo.jpeg"
+import React from "react";
+import { Link } from "react-router-dom";
+import { FaSignInAlt, FaUser } from "react-icons/fa";
+import Logo from "./logo.jpeg";
+import './header.css'
 const Header = () => {
   return (
-    <Header>
-      <div className="logo">
+    <div className="header">
+      <div className="part1">
         <Link to="/">
-          <img src={Logo} alt="missing logo" />
+          <img src={Logo} alt="missing logo" className="logo" />
         </Link>
       </div>
-      <ul>
+      <ul className="part2">
         <li>
           <Link to="/login">
             <FaSignInAlt />
@@ -23,8 +25,8 @@ const Header = () => {
           </Link>
         </li>
       </ul>
-    </Header>
+    </div>
   );
-}
+};
 
-export default Header
+export default Header;
